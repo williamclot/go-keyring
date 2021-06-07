@@ -3,7 +3,7 @@ package keyring
 import (
 	"fmt"
 	dbus "github.com/godbus/dbus/v5"
-	"github.com/zalando/go-keyring/secret_service"
+	"github.com/williamclot/go-keyring/secret_service"
 )
 
 type secretServiceProvider struct{}
